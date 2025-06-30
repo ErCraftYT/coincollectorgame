@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mein Coin Collector Spiel</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background: #000;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            font-family: Arial, sans-serif;
+        }
+        main {
+            text-align: center;
+        }
+        h1 {
+            color: #fff;
+            margin-bottom: 20px;
+        }
+        .info {
+            color: #ccc;
+            margin-top: 20px;
+            max-width: 600px;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <h1>🪙 Coin Collector Game</h1>
+        <div id="game-container"></div>
+        <div class="info">
+            <p><strong>Steuerung:</strong> Pfeiltasten • <strong>Pause:</strong> P • <strong>Shop:</strong> S • <strong>Einstellungen:</strong> E</p>
+            <p>Sammle Münzen und vermeide den roten Gegner! Der Gegner wird jede Minute schneller!</p>
+        </div>
+    </main>
+    
+    <script src="p5.min.js"></script>
+    <script src="p5.sound.min.js"></script>
+    <script src="sketch.js"></script>
+</body>
+</html>
